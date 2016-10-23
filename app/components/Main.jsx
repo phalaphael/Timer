@@ -4,10 +4,9 @@ var Navigation = require('Navigation');
 var Main = (props) => {
   return (
     <div>
-      <div>
-        <div>
-          <Navigation/>
-          <h1 className="text-center">Main.jsx rendered</h1>
+      <Navigation/>
+      <div className="row">
+        <div className="column small-centered medium-6 large-4">
           {props.children}
         </div>
       </div>
